@@ -1,0 +1,10 @@
+/Users/krystopher/workspace/csharp/exercises/lists/bin/Debug/netcoreapp2.0/lists.deps.json
+/Users/krystopher/workspace/csharp/exercises/lists/bin/Debug/netcoreapp2.0/lists.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/lists/bin/Debug/netcoreapp2.0/lists.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/lists/bin/Debug/netcoreapp2.0/lists.dll
+/Users/krystopher/workspace/csharp/exercises/lists/bin/Debug/netcoreapp2.0/lists.pdb
+/Users/krystopher/workspace/csharp/exercises/lists/obj/Debug/netcoreapp2.0/lists.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/lists/obj/Debug/netcoreapp2.0/lists.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/lists/obj/Debug/netcoreapp2.0/lists.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/lists/obj/Debug/netcoreapp2.0/lists.dll
+/Users/krystopher/workspace/csharp/exercises/lists/obj/Debug/netcoreapp2.0/lists.pdb
