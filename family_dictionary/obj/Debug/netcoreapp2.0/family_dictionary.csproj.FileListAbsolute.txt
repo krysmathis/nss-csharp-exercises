@@ -1,0 +1,10 @@
+/Users/krystopher/workspace/csharp/exercises/family_dictionary/bin/Debug/netcoreapp2.0/family_dictionary.deps.json
+/Users/krystopher/workspace/csharp/exercises/family_dictionary/bin/Debug/netcoreapp2.0/family_dictionary.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/family_dictionary/bin/Debug/netcoreapp2.0/family_dictionary.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/family_dictionary/bin/Debug/netcoreapp2.0/family_dictionary.dll
+/Users/krystopher/workspace/csharp/exercises/family_dictionary/bin/Debug/netcoreapp2.0/family_dictionary.pdb
+/Users/krystopher/workspace/csharp/exercises/family_dictionary/obj/Debug/netcoreapp2.0/family_dictionary.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/family_dictionary/obj/Debug/netcoreapp2.0/family_dictionary.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/family_dictionary/obj/Debug/netcoreapp2.0/family_dictionary.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/family_dictionary/obj/Debug/netcoreapp2.0/family_dictionary.dll
+/Users/krystopher/workspace/csharp/exercises/family_dictionary/obj/Debug/netcoreapp2.0/family_dictionary.pdb

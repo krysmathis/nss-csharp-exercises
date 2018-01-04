@@ -1,0 +1,10 @@
+/Users/krystopher/workspace/csharp/exercises/sets/bin/Debug/netcoreapp2.0/sets.deps.json
+/Users/krystopher/workspace/csharp/exercises/sets/bin/Debug/netcoreapp2.0/sets.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/sets/bin/Debug/netcoreapp2.0/sets.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/sets/bin/Debug/netcoreapp2.0/sets.dll
+/Users/krystopher/workspace/csharp/exercises/sets/bin/Debug/netcoreapp2.0/sets.pdb
+/Users/krystopher/workspace/csharp/exercises/sets/obj/Debug/netcoreapp2.0/sets.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/sets/obj/Debug/netcoreapp2.0/sets.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/sets/obj/Debug/netcoreapp2.0/sets.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/sets/obj/Debug/netcoreapp2.0/sets.dll
+/Users/krystopher/workspace/csharp/exercises/sets/obj/Debug/netcoreapp2.0/sets.pdb

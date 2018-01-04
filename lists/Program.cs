@@ -59,25 +59,25 @@ namespace lists
             };
            
             // initialize variables to contain the strings
-            string planets = "";
+            string probeMatches = "";
             int c = 0;
             
             planetList.ForEach(planet => {
                 //initialize the output string
-                planets = "";
+                probeMatches = "";
                 // loop through the list of spacecraft
                 c=0;
                 spacecraft.ForEach(probe => {
-                    // loop through the dictioary of planets visited
+                    // loop through the dictionary of planets visited
                     foreach(KeyValuePair<string,List<string>> spacecraftKVP in probe) {
                         string probeName = spacecraftKVP.Key;
                         List<string> planetsVisited = spacecraftKVP.Value;
                         if (planetsVisited.Any(p => p.Equals(planet))) {
                             c++;
                             if (c==1) {
-                                planets = probeName;
+                                probeMatches = probeName;
                             } else {
-                                planets = planets +  ", " + probeName;
+                                probeMatches = probeMatches +  ", " + probeName;
                             }
                         }
                     }
@@ -85,9 +85,9 @@ namespace lists
                 });
 
                 // now output planets
-                if (planets.Length > 0) {
+                if (probeMatches.Length > 0) {
                     Console.Write($"{planet}: ");
-                    Console.WriteLine(planets);
+                    Console.WriteLine(probeMatches);
                 }
 
             });
