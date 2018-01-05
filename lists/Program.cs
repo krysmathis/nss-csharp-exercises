@@ -51,33 +51,46 @@ namespace lists
                     {"Venera", new List<string>() {"Venus"}}
                 },
                 new Dictionary<string,List<string>>() {
-                    {"Voyager", new List<string>() {"Jupiter", "Saturn"}},
+                    {"Voyager", new List<string>() {"Jupiter", "Saturn", "Neptune", "Uranus"}},
                 },
                 new Dictionary<string,List<string>>() {
                     {"Pioneer", new List<string>() {"Jupiter"}}
-                }
+                },
+               
             };
            
             // initialize variables to contain the strings
-            string probeMatches = "";
+            string probesThatVisitedThisPlanet = "";
             int c = 0;
-            
+
+            /*
+                Here I used the ForEach using lambda, which is going around the intended
+                meaning of the lambda expression
+             */
             planetList.ForEach(planet => {
+
                 //initialize the output string
-                probeMatches = "";
+                probesThatVisitedThisPlanet = "";
                 // loop through the list of spacecraft
+                // keep track of how many matches to handle the formatting of commas on the final output
                 c=0;
+
                 spacecraft.ForEach(probe => {
                     // loop through the dictionary of planets visited
-                    foreach(KeyValuePair<string,List<string>> spacecraftKVP in probe) {
-                        string probeName = spacecraftKVP.Key;
-                        List<string> planetsVisited = spacecraftKVP.Value;
-                        if (planetsVisited.Any(p => p.Equals(planet))) {
+                    foreach(KeyValuePair<string,List<string>> spacecraftEntry in probe) {
+                        // get the probe name and list of planets visited from the 
+                        // current probe and planet list
+                        string currentProbe = spacecraftEntry.Key;
+                        List<string> currentPlanetVisited = spacecraftEntry.Value;
+
+                        //if the current planet is in the list, then add it to the 
+                        // list of probes that have visited this planet
+                        if (currentPlanetVisited.Any(p => p.Equals(planet))) {
                             c++;
                             if (c==1) {
-                                probeMatches = probeName;
+                                probesThatVisitedThisPlanet = currentProbe;
                             } else {
-                                probeMatches = probeMatches +  ", " + probeName;
+                                probesThatVisitedThisPlanet = probesThatVisitedThisPlanet +  ", " + currentProbe;
                             }
                         }
                     }
@@ -85,9 +98,9 @@ namespace lists
                 });
 
                 // now output planets
-                if (probeMatches.Length > 0) {
+                if (probesThatVisitedThisPlanet.Length > 0) {
                     Console.Write($"{planet}: ");
-                    Console.WriteLine(probeMatches);
+                    Console.WriteLine(probesThatVisitedThisPlanet);
                 }
 
             });

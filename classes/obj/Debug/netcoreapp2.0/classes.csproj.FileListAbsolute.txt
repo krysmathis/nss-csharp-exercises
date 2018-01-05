@@ -1,0 +1,10 @@
+/Users/krystopher/workspace/csharp/exercises/classes/bin/Debug/netcoreapp2.0/classes.deps.json
+/Users/krystopher/workspace/csharp/exercises/classes/bin/Debug/netcoreapp2.0/classes.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/classes/bin/Debug/netcoreapp2.0/classes.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/classes/bin/Debug/netcoreapp2.0/classes.dll
+/Users/krystopher/workspace/csharp/exercises/classes/bin/Debug/netcoreapp2.0/classes.pdb
+/Users/krystopher/workspace/csharp/exercises/classes/obj/Debug/netcoreapp2.0/classes.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/classes/obj/Debug/netcoreapp2.0/classes.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/classes/obj/Debug/netcoreapp2.0/classes.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/classes/obj/Debug/netcoreapp2.0/classes.dll
+/Users/krystopher/workspace/csharp/exercises/classes/obj/Debug/netcoreapp2.0/classes.pdb
