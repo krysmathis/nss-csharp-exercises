@@ -1,0 +1,15 @@
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/obj/Debug/netcoreapp2.0/Calculator.Tests.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/obj/Debug/netcoreapp2.0/Calculator.Tests.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/obj/Debug/netcoreapp2.0/Calculator.Tests.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/bin/Debug/netcoreapp2.0/Calculator.Tests.deps.json
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/bin/Debug/netcoreapp2.0/Calculator.Tests.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/bin/Debug/netcoreapp2.0/Calculator.Tests.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/bin/Debug/netcoreapp2.0/Calculator.Tests.dll
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/bin/Debug/netcoreapp2.0/Calculator.Tests.pdb
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/bin/Debug/netcoreapp2.0/Calculator.dll
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/bin/Debug/netcoreapp2.0/Calculator.pdb
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/obj/Debug/netcoreapp2.0/Calculator.Tests.dll
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator.Tests/obj/Debug/netcoreapp2.0/Calculator.Tests.pdb

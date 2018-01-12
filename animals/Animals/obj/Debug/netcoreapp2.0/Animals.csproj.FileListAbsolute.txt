@@ -1,0 +1,10 @@
+/Users/krystopher/workspace/csharp/exercises/animals/Animals/bin/Debug/netcoreapp2.0/Animals.deps.json
+/Users/krystopher/workspace/csharp/exercises/animals/Animals/bin/Debug/netcoreapp2.0/Animals.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/animals/Animals/bin/Debug/netcoreapp2.0/Animals.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/animals/Animals/bin/Debug/netcoreapp2.0/Animals.dll
+/Users/krystopher/workspace/csharp/exercises/animals/Animals/bin/Debug/netcoreapp2.0/Animals.pdb
+/Users/krystopher/workspace/csharp/exercises/animals/Animals/obj/Debug/netcoreapp2.0/Animals.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/animals/Animals/obj/Debug/netcoreapp2.0/Animals.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/animals/Animals/obj/Debug/netcoreapp2.0/Animals.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/animals/Animals/obj/Debug/netcoreapp2.0/Animals.dll
+/Users/krystopher/workspace/csharp/exercises/animals/Animals/obj/Debug/netcoreapp2.0/Animals.pdb

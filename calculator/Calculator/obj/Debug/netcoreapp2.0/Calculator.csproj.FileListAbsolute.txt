@@ -1,0 +1,10 @@
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator/bin/Debug/netcoreapp2.0/Calculator.deps.json
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator/bin/Debug/netcoreapp2.0/Calculator.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator/bin/Debug/netcoreapp2.0/Calculator.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator/bin/Debug/netcoreapp2.0/Calculator.dll
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator/bin/Debug/netcoreapp2.0/Calculator.pdb
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator/obj/Debug/netcoreapp2.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator/obj/Debug/netcoreapp2.0/Calculator.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator/obj/Debug/netcoreapp2.0/Calculator.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator/obj/Debug/netcoreapp2.0/Calculator.dll
+/Users/krystopher/workspace/csharp/exercises/calculator/Calculator/obj/Debug/netcoreapp2.0/Calculator.pdb

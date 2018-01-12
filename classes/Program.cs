@@ -31,7 +31,7 @@ namespace classes
         public DateTime CreatedOn { get; }
 
         // Create a property for holding a list of current employees
-        private List<Employee> CurrentEmployees;
+        private List<Employee> CurrentEmployees {get;} = new List<Employee>();
         // Create a method that allows external code to add an employee
         public void AddEmployee(Employee employee) {
             CurrentEmployees.Add(employee);
@@ -50,7 +50,6 @@ namespace classes
         public Company(string name, DateTime createdOn) {
             this.Name = name;
             this.CreatedOn  = CreatedOn;
-            this.CurrentEmployees = new List<Employee>();
         }
 
         public void ListEmployees() => CurrentEmployees.ForEach(e => Console.WriteLine($"{e.Name} - {e.JobTitle}"));

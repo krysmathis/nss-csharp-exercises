@@ -1,0 +1,10 @@
+/Users/krystopher/workspace/csharp/exercises/lightning/bin/Debug/netcoreapp2.0/lightning.deps.json
+/Users/krystopher/workspace/csharp/exercises/lightning/bin/Debug/netcoreapp2.0/lightning.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/lightning/bin/Debug/netcoreapp2.0/lightning.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/lightning/bin/Debug/netcoreapp2.0/lightning.dll
+/Users/krystopher/workspace/csharp/exercises/lightning/bin/Debug/netcoreapp2.0/lightning.pdb
+/Users/krystopher/workspace/csharp/exercises/lightning/obj/Debug/netcoreapp2.0/lightning.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/lightning/obj/Debug/netcoreapp2.0/lightning.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/lightning/obj/Debug/netcoreapp2.0/lightning.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/lightning/obj/Debug/netcoreapp2.0/lightning.dll
+/Users/krystopher/workspace/csharp/exercises/lightning/obj/Debug/netcoreapp2.0/lightning.pdb

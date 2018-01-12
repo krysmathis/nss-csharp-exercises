@@ -1,0 +1,10 @@
+/Users/krystopher/workspace/csharp/exercises/vehicles/bin/Debug/netcoreapp2.0/vehicles.deps.json
+/Users/krystopher/workspace/csharp/exercises/vehicles/bin/Debug/netcoreapp2.0/vehicles.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/vehicles/bin/Debug/netcoreapp2.0/vehicles.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/vehicles/bin/Debug/netcoreapp2.0/vehicles.dll
+/Users/krystopher/workspace/csharp/exercises/vehicles/bin/Debug/netcoreapp2.0/vehicles.pdb
+/Users/krystopher/workspace/csharp/exercises/vehicles/obj/Debug/netcoreapp2.0/vehicles.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/vehicles/obj/Debug/netcoreapp2.0/vehicles.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/vehicles/obj/Debug/netcoreapp2.0/vehicles.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/vehicles/obj/Debug/netcoreapp2.0/vehicles.dll
+/Users/krystopher/workspace/csharp/exercises/vehicles/obj/Debug/netcoreapp2.0/vehicles.pdb

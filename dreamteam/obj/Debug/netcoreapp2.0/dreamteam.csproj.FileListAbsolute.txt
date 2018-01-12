@@ -1,0 +1,10 @@
+/Users/krystopher/workspace/csharp/exercises/dreamteam/bin/Debug/netcoreapp2.0/dreamteam.deps.json
+/Users/krystopher/workspace/csharp/exercises/dreamteam/bin/Debug/netcoreapp2.0/dreamteam.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/dreamteam/bin/Debug/netcoreapp2.0/dreamteam.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/dreamteam/bin/Debug/netcoreapp2.0/dreamteam.dll
+/Users/krystopher/workspace/csharp/exercises/dreamteam/bin/Debug/netcoreapp2.0/dreamteam.pdb
+/Users/krystopher/workspace/csharp/exercises/dreamteam/obj/Debug/netcoreapp2.0/dreamteam.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/dreamteam/obj/Debug/netcoreapp2.0/dreamteam.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/dreamteam/obj/Debug/netcoreapp2.0/dreamteam.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/dreamteam/obj/Debug/netcoreapp2.0/dreamteam.dll
+/Users/krystopher/workspace/csharp/exercises/dreamteam/obj/Debug/netcoreapp2.0/dreamteam.pdb
