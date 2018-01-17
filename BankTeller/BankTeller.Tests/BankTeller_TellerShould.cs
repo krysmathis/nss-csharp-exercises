@@ -8,15 +8,6 @@ namespace BankTeller.Tests
         DatabaseInterface db = new DatabaseInterface();
 
         [Fact]
-        public void CreateAccount() {
-            Bank bank = new Bank();
-            Account account = new Account();
-            bank.AddAccount(account);
-
-            Assert.Contains(account, bank.GetAccounts());
-        }
-
-        [Fact]
         public void DepositMoney() {
             
             BankTeller teller = new BankTeller(db);

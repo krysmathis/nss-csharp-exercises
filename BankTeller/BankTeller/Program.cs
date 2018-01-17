@@ -10,8 +10,7 @@ namespace BankTeller
         {
             // Create an instance of the database interface
             DatabaseInterface db = new DatabaseInterface();
-            
-            //Bank bank = new Bank();
+
             // Create an instance of the bankTeller object
             BankTeller bankTeller = new BankTeller(db);
             
