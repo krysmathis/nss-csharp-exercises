@@ -33,46 +33,39 @@ s.ArtistId = ar.ArtistId
 WHERE s.ArtistId = 28;
 
 /* Write a SELECT statement to display how many songs exist for each album. You'll need to use the COUNT() function and the GROUP BY keyword sequence. */
-SELECT a.Title as ALBUM_TITLE, Count(SongId)
+SELECT a.Title as ALBUM_TITLE, Count(*)
 FROM Song s
 LEFT JOIN Album a ON
 s.AlbumId = a.AlbumId
 Group by a.Title
 
 /* Write a SELECT statement to display how many songs exist for each artist. You'll need to use the COUNT() function and the GROUP BY keyword sequence. */
-SELECT ar.ArtistName, count(s.SongId) as SONG_COUNT
+SELECT ar.ArtistName, count(*) as SONG_COUNT
 FROM SONG s
 LEFT JOIN Artist ar ON
 s.ArtistId = ar.ArtistId
 GROUP BY ar.ArtistName;
 
 /* Write a SELECT statement to display how many songs exist for each genre. You'll need to use the COUNT() function and the GROUP BY keyword sequence. */
-SELECT g.Label as GENRE, Count(s.SongId) as SONG_COUNT
+SELECT g.Label as GENRE, Count(*) as SONG_COUNT
 FROM Song s
 LEFT JOIN Genre g ON
 s.GenreId = g.GenreId
 Group by g.Label;
 
 /* Using MAX() function, write a select statement to find the album with the longest duration. The result should display the album title and the duration. */
-SELECT Title as AlbumTitle, AlbumLength as Duration
-FROM Album a
-INNER JOIN 
-(SELECT Max(AlbumLength) as MaxLength from Album) al
-ON a.AlbumLength = al.MaxLength;
+SELECT Title, MAX(AlbumLength) as Duration
+FROM Album
 
 /* Using MAX() function, write a select statement to find the song with the longest duration. The result should display the song title and the duration. */
-SELECT s.Title as SongTitle,s.SongLength
+SELECT s.Title, Max(SongLength) as Duration
 FROM Song s
-INNER JOIN (SELECT max(SongLength)  as MaxLength FROM SONG) as sl
-ON s.SongLength = sl.MaxLength
 
 
 /* Modify the previous query to also display the title of the album. */
-SELECT s.Title as SongTitle, a.Title as AlbumTitle, s.SongLength
+SELECT s.Title, a.Title, Max(SongLength) as Duration
 FROM Song s
-INNER JOIN (SELECT max(SongLength)  as MaxLength FROM SONG) as sl
-ON s.SongLength = sl.MaxLength
-INNER JOIN Album a ON 
+LEFT JOIN Album a ON 
 s.AlbumId = a.AlbumId
 
 
