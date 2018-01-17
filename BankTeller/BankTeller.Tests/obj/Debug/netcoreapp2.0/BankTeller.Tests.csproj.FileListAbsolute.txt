@@ -1,0 +1,15 @@
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/obj/Debug/netcoreapp2.0/BankTeller.Tests.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/obj/Debug/netcoreapp2.0/BankTeller.Tests.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/obj/Debug/netcoreapp2.0/BankTeller.Tests.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/bin/Debug/netcoreapp2.0/BankTeller.Tests.deps.json
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/bin/Debug/netcoreapp2.0/BankTeller.Tests.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/bin/Debug/netcoreapp2.0/BankTeller.Tests.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/bin/Debug/netcoreapp2.0/BankTeller.Tests.dll
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/bin/Debug/netcoreapp2.0/BankTeller.Tests.pdb
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/bin/Debug/netcoreapp2.0/BankTeller.dll
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/bin/Debug/netcoreapp2.0/BankTeller.pdb
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/obj/Debug/netcoreapp2.0/BankTeller.Tests.dll
+/Users/krystopher/workspace/csharp/exercises/BankTeller/BankTeller.Tests/obj/Debug/netcoreapp2.0/BankTeller.Tests.pdb
