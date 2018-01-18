@@ -95,8 +95,8 @@ namespace BankTeller
                         double withdrawal = Convert.ToDouble(Console.ReadLine());
 
                         bankTeller.WithdrawMoney(withdrawal,accountId);
+                        
                         balance = bankTeller.CheckBalance(accountId);
-
                         Console.WriteLine($"New balance is {balance.ToString("C")} -- ENTER to Continue");
                         Console.ReadLine();
                         
