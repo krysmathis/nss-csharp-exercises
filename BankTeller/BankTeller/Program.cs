@@ -31,21 +31,13 @@ namespace BankTeller
                     case 1: {
                         // Ask user to input customer name
                         string CustomerName = Console.ReadLine();
-
-                        if (CustomerName.Length > 0) {
-                        // Insert customer account into database
-                            db.Insert($@"
-                                INSERT INTO Account
-                                (Id, Customer, Balance)
-                                VALUES
-                                (null, '{CustomerName}', 0)
-                            ");
-                        } 
+                        int accountNumber = bankTeller.AddAccount(CustomerName);
                         break;
                     }
 
                     // Menu option 2: Deposit money
                     case 2: {
+                        
                         Console.Clear();
                         Console.WriteLine("Enter the customer name");
                         string CustomerName = Console.ReadLine();
@@ -54,14 +46,16 @@ namespace BankTeller
                         // the user does not have an account
                         int accountId = bankTeller.GetAccountNumber(CustomerName);
 
+                        // If the customer name is not in the db then kick the teller out
                         if (accountId == -1) {
                             Console.WriteLine("No Account By That Name -- ENTER to Continue");
                             Console.ReadLine();
                             break;
                         } 
+
                         // Provide an initial balance
                         double balance = bankTeller.CheckBalance(accountId);
-                        Console.WriteLine($"Account # is {accountId}, initial balance is {balance.ToString()} -- ENTER to Continue");
+                        Console.WriteLine($"Account # is {accountId}, initial balance is {balance.ToString("C")} -- ENTER to Continue");
                         
                         // Ask for deposit amount
                         Console.WriteLine("How much would you like to deposit?");
@@ -70,7 +64,7 @@ namespace BankTeller
                         bankTeller.DepositMoney(deposit,accountId);
                         balance = bankTeller.CheckBalance(accountId);
 
-                        Console.WriteLine($"New balance is {balance.ToString()} -- ENTER to Continue");
+                        Console.WriteLine($"New balance is {balance.ToString("C")} -- ENTER to Continue");
                         Console.ReadLine();
                         
                         break;
@@ -94,7 +88,7 @@ namespace BankTeller
                         } 
                         // Provide an initial balance
                         double balance = bankTeller.CheckBalance(accountId);
-                        Console.WriteLine($"Account # is {accountId}, initial balance is {balance.ToString()} -- ENTER to Continue");
+                        Console.WriteLine($"Account # is {accountId}, initial balance is {balance.ToString("C")} -- ENTER to Continue");
                         
                         // Ask for withdrawal amount
                         Console.WriteLine("How much would you like to withdraw?");
@@ -103,7 +97,7 @@ namespace BankTeller
                         bankTeller.WithdrawMoney(withdrawal,accountId);
                         balance = bankTeller.CheckBalance(accountId);
 
-                        Console.WriteLine($"New balance is {balance.ToString()} -- ENTER to Continue");
+                        Console.WriteLine($"New balance is {balance.ToString("C")} -- ENTER to Continue");
                         Console.ReadLine();
                         
                         break;

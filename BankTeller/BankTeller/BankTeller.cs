@@ -12,6 +12,32 @@ namespace BankTeller
             db = databaseInterface;
         }
 
+        public int AddAccount(string customerName) 
+        {
+            if (customerName.Length > 0) {
+                    
+            // Insert customer account into database
+                return db.Insert($@"
+                    INSERT INTO Account
+                    (Id, Customer, Balance)
+                    VALUES
+                    (null, '{customerName}', 0)
+                ");
+            }
+
+            return -1;
+             
+        }
+
+        public void RemoveAccount(string customerName) 
+        {
+            db.Update($@"DELETE  
+                        FROM Account
+                        WHERE 
+                        Customer = '{customerName}';");
+        }
+
+
         public void DepositMoney(double deposit, int accountId)
         {
             db.Update($@"UPDATE Account

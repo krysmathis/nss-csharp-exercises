@@ -8,6 +8,23 @@ namespace BankTeller.Tests
         DatabaseInterface db = new DatabaseInterface();
 
         [Fact]
+        public void AddAccount() {
+
+            BankTeller teller = new BankTeller(db);
+            string customerName = "Test Account";
+
+            // Add Account
+            int accountNumber = teller.AddAccount(customerName);
+            // Verify
+            Assert.True(accountNumber > -1);
+
+            // Remove Account as part of clean-up
+            teller.RemoveAccount(customerName);
+            accountNumber = teller.GetAccountNumber(customerName);
+            Assert.Equal(-1 ,accountNumber);
+        }
+
+        [Fact]
         public void DepositMoney() {
             
             BankTeller teller = new BankTeller(db);
