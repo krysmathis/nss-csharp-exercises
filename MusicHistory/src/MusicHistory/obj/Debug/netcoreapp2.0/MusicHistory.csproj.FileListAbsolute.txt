@@ -1,0 +1,10 @@
+/Users/krystopher/workspace/csharp/exercises/MusicHistory/src/MusicHistory/bin/Debug/netcoreapp2.0/MusicHistory.deps.json
+/Users/krystopher/workspace/csharp/exercises/MusicHistory/src/MusicHistory/bin/Debug/netcoreapp2.0/MusicHistory.runtimeconfig.json
+/Users/krystopher/workspace/csharp/exercises/MusicHistory/src/MusicHistory/bin/Debug/netcoreapp2.0/MusicHistory.runtimeconfig.dev.json
+/Users/krystopher/workspace/csharp/exercises/MusicHistory/src/MusicHistory/bin/Debug/netcoreapp2.0/MusicHistory.dll
+/Users/krystopher/workspace/csharp/exercises/MusicHistory/src/MusicHistory/bin/Debug/netcoreapp2.0/MusicHistory.pdb
+/Users/krystopher/workspace/csharp/exercises/MusicHistory/src/MusicHistory/obj/Debug/netcoreapp2.0/MusicHistory.csproj.CoreCompileInputs.cache
+/Users/krystopher/workspace/csharp/exercises/MusicHistory/src/MusicHistory/obj/Debug/netcoreapp2.0/MusicHistory.AssemblyInfoInputs.cache
+/Users/krystopher/workspace/csharp/exercises/MusicHistory/src/MusicHistory/obj/Debug/netcoreapp2.0/MusicHistory.AssemblyInfo.cs
+/Users/krystopher/workspace/csharp/exercises/MusicHistory/src/MusicHistory/obj/Debug/netcoreapp2.0/MusicHistory.dll
+/Users/krystopher/workspace/csharp/exercises/MusicHistory/src/MusicHistory/obj/Debug/netcoreapp2.0/MusicHistory.pdb
