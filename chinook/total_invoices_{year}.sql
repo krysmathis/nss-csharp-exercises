@@ -1,3 +1,5 @@
-Select Count(InvoiceId) as 'Total Invoices'
+Select strftime('%Y', InvoiceDate) as year, Count(InvoiceId) as 'Total Invoices'
 FROM Invoice
-WHERE InvoiceDate BETWEEN '2009-01-01' AND '2011-12-31';
+WHERE year = '2009'
+OR year = '2011'
+GROUP BY year;

@@ -1,0 +1,22 @@
+ [Fact]
+        public void HaveProperties()
+        {
+            Customer customer = new Customer();
+            customer.Id = 1;
+            customer.Name = 1;
+            customer.StreetAddress = 1;
+            customer.City = 1;
+            customer.State = 1;
+            customer.PostalCode = 1;
+            customer.PhoneNumber = 1;
+            
+            
+            Assert.Equals(customer.Id,1);
+            Assert.Equals(customer.Name,"Steve");
+            Assert.Equals(customer.StreetAddress, "1710 Shelby Ave");
+            Assert.Equals(customer.City, "1710 Shelby Ave");
+            Assert.Equals(customer.State, "1710 Shelby Ave");
+            Assert.Equals(customer.PostalCode, "1710 Shelby Ave");
+            Assert.Equals(customer.PhoneNumber,"615-855-5769");
+
+        }
